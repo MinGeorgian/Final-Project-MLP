@@ -150,6 +150,8 @@ model.load_state_dict(torch.load(PATH), strict=False)
 3. Task 3:
    - To apply the LABERT model, execute 'finetune_ALBERT.py' to train the input data.
    - After training, evaluate the performance of the modified model by running 'eval_ALBERT.py'."
+     
+※ our trained model : https://drive.google.com/drive/folders/1vahWzy9F4Zx1lb1NRqW2zmdtANEjAFx1?usp=sharing
 
 ※ This code utilizes a GPU accelerator, 'CUDA'.
 We used CUDA version 12.1 and installed a compatible version of torch. 
